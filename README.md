@@ -18,7 +18,12 @@ Here are some ideas to get you started:
 -->
 
 ![Python](https://img.shields.io/badge/python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)&nbsp;&nbsp;
-![Rust](https://img.shields.io/badge/rust-F28500.svg?style=for-the-badge&logo=rust&logoColor=white)&nbsp;&nbsp;
 ![Kotlin](https://img.shields.io/badge/kotlin-9B59B6.svg?style=for-the-badge&logo=kotlin&logoColor=white)&nbsp;&nbsp;
+![Rust](https://img.shields.io/badge/rust-F28500.svg?style=for-the-badge&logo=rust&logoColor=white)&nbsp;&nbsp;
 ![C++](https://img.shields.io/badge/c++-00599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 
