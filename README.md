@@ -18,77 +18,87 @@ Backend developer from Russia with 5+ years of experience. I combine programming
 
 ---
 
-## 🚀 Projects
-
-### 🛰️ Satellite
-
-A service for securing network traffic and optimizing routing paths. It accelerates traffic, improves connectivity to restricted services, standardizes traffic patterns, and encrypts data for protection.
-
-* **Started:** October 2024
-* **Status:** Active, production-ready, continuously evolving
-* **Includes:**
-
-  * Backend infrastructure (control panel, Telegram bot, web dashboard, DNS server, parsers)
-  * Client systems (TUI client, web dashboard)
-  * Traffic distribution system (global nodes, load balancers, relay servers)
-  * Client apps (Android, Windows, Linux, third-party integrations)
-* **Source:** Closed (commercial project)
+## 🚀 My Projects
 
 ---
 
-### 🏠 UrbanServer
+### 🛰️ Satellite (My main project)
 
-A self-hosted software-hardware complex deployed on a home server.
+A service for securing network traffic and optimizing routing paths.
 
-* **Started:** June 2025
-* **Status:** Active
-* **Includes:**
+It accelerates connections, improves access to restricted or unstable services, standardizes traffic patterns, and encrypts data to protect users from surveillance and interference.
 
-  * Firewall (iptables-based)
-  * DNS server
-  * Proxy server
-  * Satellite node
-  * Router-server bridge for full traffic routing
-  * LUKS encrypted filesystem
-  * Ubuntu OS
-  * Apache virtual hosting (domain-based routing)
-  * Automated updates and hardware diagnostics
-  * Rapid deployment platform for bots and websites
-* **Source:** Closed (highly customized)
+**Started:** October 2024
+**Status:** Actively developed and production-ready
+
+**Includes:**
+
+* Backend infrastructure (admin panel, Telegram bot, personal account web app, DNS server, content parsers)
+* Client-side tools (TUI admin client, web dashboard)
+* Traffic distribution system (international and internal nodes, load balancers, relay servers)
+* Client applications (Android app, desktop apps for Windows & Linux, third-party integrations)
+
+**Code status:** Private (commercial project. some of the code will be open sourced in the future)
+
+---
+
+### 🖥️ UrbanServer
+
+Self-hosted hardware-software platform deployed on a home server.
+
+**Started:** June 2025
+**Status:** Stable and evolving
+
+**Includes:**
+
+* iptables-based firewall
+* DNS server
+* Proxy server
+* Satellite-node integration
+* Router-server bridge for full home traffic routing
+* LUKS encrypted filesystem
+* Ubuntu-based system
+* Apache virtual hosting (domain-based routing)
+* Automated updates and hardware diagnostics
+* Rapid deployment platform for Telegram bots and web services
+
+**Code status:** Private (personal project, highly specialized for my infrastructure and hardware)
 
 ---
 
 ### ☁️ UrbanCloud
 
-A private self-hosted cloud storage for personal and family use.
+Self-hosted private cloud for personal and family use.
 
-* **Started:** December 2025
-* **Status:** Active
-* **Includes:**
+**Started:** December 2025
+**Status:** Stable and operational
 
-  * UrbanServer infrastructure base
-  * Firewall (iptables)
-  * DNS server
-  * MergerFS-based disk management
-  * Reverse proxy
-  * Modified Nextcloud instance
-* **Source:** Closed (custom implementation)
+**Includes:**
+
+* Built on UrbanServer infrastructure
+* Disk aggregation via MergerFS
+* Reverse proxy setup
+* Customized Nextcloud instance
+
+**Code status:** Private (personal project, highly specialized for my infrastructure and hardware)
 
 ---
 
 ### 🔐 UrbanPass
 
-A secure self-hosted vault for passwords, tokens, and sensitive data.
+Secure self-hosted password, token, and key storage.
 
-* **Started:** February 2026
-* **Status:** Active
-* **Includes:**
+**Started:** February 2026
+**Status:** Stable and operational
 
-  * UrbanCloud infrastructure
-  * LUKS encrypted storage
-  * Dedicated web interface
-  * Bitwarden-based core
-* **Source:** Closed (custom implementation)
+**Includes:**
+
+* Based on UrbanCloud
+* LUKS encrypted partition
+* Dedicated web interface
+* Bitwarden core integration
+
+**Code status:** Private (personal project, highly specialized for my infrastructure and hardware)
 
 ---
 
@@ -96,125 +106,140 @@ A secure self-hosted vault for passwords, tokens, and sensitive data.
 
 Private vanilla Minecraft server.
 
-* **Started:** December 2022
-* **Status:** Active
-* **Includes:**
+**Started:** December 2022
+**Status:** Active and evolving
 
-  * Paper server core with tuned configs
-  * Plugin ecosystem
-  * Website (planned)
-  * Telegram bot (active)
-  * Custom plugin integration
-* **Source:** Partially closed
+**Includes:**
 
----
+* Paper server core with custom configs
+* Plugin ecosystem
+* Website (in development)
+* Telegram bot (active)
+* Custom plugin integrated with the bot
 
-### 🤖 KGB
-
-Telegram moderation bot for filtering unwanted content.
-
-* **Started:** April 2025
-* **Status:** Active
-* **Includes:**
-
-  * Lightweight database
-  * Neural network moderation (DeBERTa)
-  * Telegram bot
-* **Source:** Open → [https://github.com/Egor-Urban/KGB-SovietAntispamSystem](https://github.com/Egor-Urban/KGB-SovietAntispamSystem)
+**Code status:** Private (personal project. some of the code will be open sourced in the future)
 
 ---
 
-### 🏛️ CPRF Moscow Bot
+### 🤖 KGB-SAS
 
-Telegram bot for election-related communication and feedback.
+Telegram moderation bot for detecting unwanted content.
 
-* **Started:** June 2024
-* **Status:** Active
-* **Includes:**
+**Started:** April 2025
+**Status:** Active
 
-  * Database
-  * Email integration system
-  * Dynamic UI navigation
-  * Message collection pipelines
-  * Asset storage
-  * Media processing
-* **Source:** Closed (commercial)
+**Includes:**
+
+* Lightweight database
+* Neural network moderation (DeBERTa-based)
+* Telegram bot interface
+
+**Code status:** Open source
+👉 [https://github.com/Egor-Urban/KGB-SovietAntispamSystem](https://github.com/Egor-Urban/KGB-SovietAntispamSystem)
 
 ---
 
-### 🏛️ LKSM RF Bot
+### 🏛️ Telegram-bot "CPRF Moscow"
 
-Telegram bot for youth organization interaction and applications.
+Telegram bot developed **by order of CPRF** for informing citizens ahead of the Moscow City Duma elections and enabling communication with representatives.
 
-* **Started:** October 2024
-* **Status:** Active
-* **Includes:**
+**Started:** June 2024
+**Status:** Active
 
-  * Database
-  * Async architecture
-  * Dynamic UI system
-  * Message pipelines
-  * Notification system
-  * Media handling
-* **Source:** Closed (commercial)
+**Includes:**
+
+* Database
+* Email processing system
+* Dynamic menu system
+* Structured input collection workflows
+* Asset storage system
+* Media and attachment processing
+
+**Code status:** Private (commercial project)
+
+---
+
+### 🏛️ Telegram-bot "LKSM RF"
+
+Telegram bot developed **by order of CPRF** providing information about the youth organization and handling applications and engagement.
+
+**Started:** October 2024
+**Status:** Active
+
+**Includes:**
+
+* Database
+* Asynchronous architecture
+* Dynamic UI system
+* Input collection workflows
+* Notification system
+* Media processing
+
+**Code status:** Private (commercial project)
 
 ---
 
 ### ⚙️ AutoAdmin
 
-Telegram userbot for automated content parsing, transformation, and publishing.
+Telegram userbot for automated content parsing and publishing.
 
-* **Started:** December 2025
-* **Status:** Active
-* **Includes:**
+**Started:** December 2025
+**Status:** Active
 
-  * Database
-  * Advanced auth system
-  * OpenRouter API integration
-  * Auto post generator
-  * Media processing
-  * Smart parser with filtering
-* **Source:** Closed (commercial)
+**Includes:**
 
----
+* Database
+* Advanced authorization system
+* OpenRouter API client
+* Automated post builder
+* Media handling
+* Smart filtering parser
 
-### 🧠 RaterUSSR
-
-A social rating system prototype for Moscow schools.
-
-* **Started:** September 2023
-* **Status:** Closed (ethical concerns)
-* **Includes:**
-
-  * Monolithic architecture
-  * Role system
-  * Mobile + desktop apps
-  * Integration with school.mos.ru API
-* **Source:** Closed
+**Code status:** Private (commercial project. some of the code will be open sourced in the future)
 
 ---
 
-### 🌐 PIjN
+### 📉 RaterUSSR
 
-Microservice-based social network infrastructure.
+School social rating system (Moscow).
 
-* **Started:** February 2025
-* **Status:** Frozen (time constraints)
-* **Includes:**
+**Started:** September 2023
+**Status:** Closed (ethical concerns)
 
-  * Microservices backend
-  * Mobile app
-  * Desktop app
-  * Web platform
-* **Source:** Partially open
+**Includes:**
+
+* Monolithic client-server architecture
+* Role system
+* Mobile app
+* Desktop admin panel
+* Integration with school.mos.ru API
+
+**Code status:** Private (personal project)
+
+---
+
+### 🧩 PIjN
+
+Microservices-based social network infrastructure.
+
+**Started:** February 2025
+**Status:** Frozen (time constraints)
+
+**Includes:**
+
+* Microservice backend architecture
+* Mobile app
+* Desktop app
+* Web platform
+
+**Code status:** Partially open-source (some repositories available)
 
 ---
 
 ## 📌 Notes
 
-* Most projects are private due to commercial use or deep customization
-* Open-sourcing selected components is planned
-* Focus areas: networking, security, distributed systems, self-hosting
+* Most projects are private due to either commercial use or deep specialization for my personal infrastructure
+* Some components may be open-sourced in the future
+* Focus areas: networking, privacy, infrastructure, and distributed systems
 
 ---
-
