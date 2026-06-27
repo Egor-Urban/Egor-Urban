@@ -1,4 +1,4 @@
-## Hello world! 🌎
+##  Think different 
 
 
 <p align="left">
@@ -11,5 +11,4 @@
 
 ### About Me
 
-Backend developer from Russia with 5+ years of experience. I combine programming with my studies and actively build production-grade systems and infrastructure. Most of my projects are private, but I aim to gradually open-source selected components.
-
+A software engineer from Moscow, specializing in backend and mobile application development. I am actively learning new
